@@ -12,9 +12,9 @@ o	Aplicação: Embora seja mais comum em contadores, para usá-lo como um regist
 2.	 Multiplexador de quatro opções de entrada:
 Um multiplexador funciona como uma chave seletora digital. Ele permite que você escolha qual de várias fontes de entrada será conectada a uma única saída.
 •	Funcionamento:
-1.	Entradas de Dados: Possui quatro linhas de entrada.
-2.	Entradas de Seleção: Possui duas linhas de controle, ou seleção. Como, dois bits são suficientes para escolher entre quatro opções.
-3.	Saída Única: Possui uma única linha de saída.
+   Entradas de Dados: Possui quatro linhas de entrada.
+   Entradas de Seleção: Possui duas linhas de controle, ou seleção. Como, dois bits são suficientes para escolher entre quatro opções.
+   Saída Única: Possui uma única linha de saída.
 •	Aplicação: É crucial para selecionar dados em uma ULA ou para rotear dados de diferentes partes de um sistema para um barramento comum.
 
 3.	 Porta lógica XOR usando AND, NOT e OR:
@@ -25,16 +25,16 @@ o	Se as entradas A e B são 1 e 1, a saída é 0.
 o	Se uma entrada é 0 e a outra é 1, a saída é 1.
 •	Implementação com outras portas: A expressão booleana para a operação XOR é: 
 Isso se traduz diretamente no circuito:
-1.	Cria-se o termo (A E NÃO B): A entrada A é conectada a uma porta AND, e a entrada B é primeiro invertida por uma porta NOT e depois conectada à mesma porta AND.
-2.	Cria-se o termo (NÃO A E B): A entrada B é conectada a uma segunda porta AND, e a entrada A é primeiro invertida por uma porta NOT e depois conectada a esta segunda porta AND.
-3.	As saídas das duas portas AND são então conectadas a uma porta OR. A saída desta porta OR é o resultado da operação XOR.
+   Cria-se o termo (A E NÃO B): A entrada A é conectada a uma porta AND, e a entrada B é primeiro invertida por uma porta NOT e depois conectada à mesma porta AND.
+   Cria-se o termo (NÃO A E B): A entrada B é conectada a uma segunda porta AND, e a entrada A é primeiro invertida por uma porta NOT e depois conectada a esta segunda porta AND.
+   As saídas das duas portas AND são então conectadas a uma porta OR. A saída desta porta OR é o resultado da operação XOR.
 
 4.	 Somador de 8 bits que soma com o valor 4:
 Este é um circuito aritmético especializado, projetado para uma única tarefa: adicionar o número 4 a qualquer número de 8 bits que ele receba.
 •	Funcionamento: Ele é construído a partir de um somador de 8 bits padrão.
-1.	Entrada A: É um barramento de 8 bits que recebe o número variável (vamos chamá-lo de N).
-2.	Entrada B: Em vez de ser uma entrada variável, ela é fixa. O número 4 em binário de 8 bits é 00000100. Portanto, os fios da entrada B são permanentemente conectados da seguinte forma: o terceiro fio (B2) é conectado à tensão alta, e todos os outros sete fios (B0, B1, B3-B7) são conectados ao terra.
-3.	Saída: A saída do circuito será sempre o resultado de N + 4.
+   Entrada A: É um barramento de 8 bits que recebe o número variável (vamos chamá-lo de N).
+   Entrada B: Em vez de ser uma entrada variável, ela é fixa. O número 4 em binário de 8 bits é 00000100. Portanto, os fios da entrada B são permanentemente conectados da seguinte forma: o terceiro fio (B2) é conectado à tensão alta, e todos os outros sete fios (B0, B1, B3-B7) são conectados ao terra.
+   Saída: A saída do circuito será sempre o resultado de N + 4.
 
 
 8.  Somador de 8 bits:
@@ -58,8 +58,8 @@ o	Se a contagem for par (0, 2, 4, etc.), a saída do detector é '0'.
 17. Detector de Número Primo:
 Este é um circuito de lógica combinacional customizado para uma tarefa matemática específica.
 •	Funcionamento:
-1.	Entrada: Recebe um número binário de 4 bits. Este número pode representar qualquer valor decimal de 0 a 15.
-2.	Lógica Interna: O circuito é projetado com base em uma tabela verdade. Essa tabela define que a saída deve ser '1' apenas para as entradas que correspondem a números primos. Para 4 bits, os números primos são 2, 3, 5, 7, 11 e 13. Para todas as outras entradas (0, 1, 4, 6, 8, 9, 10, 12, 14, 15), a saída deve ser '0'.
-3.	Saída: Produz um único bit de saída. A saída é '1' se o número de entrada for primo e '0' caso contrário.
+   Entrada: Recebe um número binário de 4 bits. Este número pode representar qualquer valor decimal de 0 a 15.
+   Lógica Interna: O circuito é projetado com base em uma tabela verdade. Essa tabela define que a saída deve ser '1' apenas para as entradas que correspondem a números primos. Para 4 bits, os números primos são 2, 3, 5, 7, 11 e 13. Para todas as outras entradas (0, 1, 4, 6, 8, 9, 10, 12, 14, 15), a saída deve ser '0'.
+   Saída: Produz um único bit de saída. A saída é '1' se o número de entrada for primo e '0' caso contrário.
 •	Implementação: A partir da tabela verdade, usa-se técnicas como Mapas de Karnaugh para derivar a expressão booleana mais simples possível. Essa expressão é então implementada fisicamente usando portas AND, OR e NOT.
 
