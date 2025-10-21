@@ -32,4 +32,3 @@ Os circuitos apresentados são os seguintes:
 16.  Otimização Lógica utilizando mapas de Karnaugh;
 17.  Decodificador de 7 Segmentos;
 18.  Detector de Número Primo.
-19.  
