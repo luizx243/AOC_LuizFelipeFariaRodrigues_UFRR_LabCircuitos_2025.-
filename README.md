@@ -9,6 +9,7 @@ Projeto realizado pelo discente Luiz Felipe Faria Rodrigues;
 # Estrutura
 
    -   O repositório contém 17 pastas, sendo cada pasta composta por:
+   
 Um circuito simulado no programa Logisim;
 Um arquivo README com a descrição do circuito.
 
