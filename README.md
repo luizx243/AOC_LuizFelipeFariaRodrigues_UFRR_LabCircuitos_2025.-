@@ -10,7 +10,7 @@ Projeto realizado pelo discente Luiz Felipe Faria Rodrigues;
 
    -   O repositório contém 17 pastas, sendo cada pasta composta por:
    --  Um circuito simulado no programa Logisim;
-   --  Uma descrição do circuito.
+   --  Um arquivo README com a descrição do circuito.
 
 Os circuitos apresentados são os seguintes:
 
@@ -32,3 +32,4 @@ Os circuitos apresentados são os seguintes:
 16.  Otimização Lógica utilizando mapas de Karnaugh;
 17.  Decodificador de 7 Segmentos;
 18.  Detector de Número Primo.
+19.  
