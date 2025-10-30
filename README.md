@@ -14,7 +14,6 @@ Um circuito simulado no programa Logisim;
 
 Suas imagens em arquivo .png.
 
-Um relatório geral
 
 Os circuitos apresentados são os seguintes:
 
