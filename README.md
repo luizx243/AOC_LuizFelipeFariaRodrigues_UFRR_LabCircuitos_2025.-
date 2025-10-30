@@ -12,7 +12,9 @@ Projeto realizado pelo discente Luiz Felipe Faria Rodrigues;
    
 Um circuito simulado no programa Logisim;
 
-Um arquivo README com a descrição do circuito.
+Suas imagens em arquivo .png.
+
+Um relatório geral
 
 Os circuitos apresentados são os seguintes:
 
